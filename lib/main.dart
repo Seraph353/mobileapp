@@ -453,9 +453,15 @@ Future<void> _takePicture() async {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Scan Albums'),
+        title: const Text('Scan Albums',
+        style: TextStyle(color: Color.fromARGB(255, 220, 192, 255),
+        fontWeight: FontWeight.bold,
+        fontSize: 34
+         )
+        ),
+        centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 0, 146, 204),
-      ),backgroundColor: Color.fromARGB(255, 220, 192, 255), 
+      ),backgroundColor: Color.fromARGB(255, 0, 0, 0), 
       body: FutureBuilder<void>(
         future: _initializeControllerFuture,
         builder: (context, snapshot) {
