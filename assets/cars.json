@@ -1,0 +1,28 @@
+[
+    {"name":"Nurture",
+    "status":"Porter Robinson",
+    "image": "nurture.png"
+},
+
+{"name":"There Must Be Something Here",
+"status":"Acloudyskye",
+"image": "tmbsh.png"
+},
+
+{"name":"We",
+    "status":"Arcade Fire",
+    "image": "we.png"
+},
+
+{"name":"Messy Mind",
+    "status":"Unlike Pluto",
+    "image": "messymind.png"
+},
+
+{"name":"Dear Wormwood",
+    "status":"The Oh Hellos",
+    "image": "dearworm.png"
+}
+
+  ]
+  
